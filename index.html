@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini Mağaza</title>
+  <link rel="stylesheet" href="style.css?v=2">
+</head>
+<body>
+  <header>
+    <h1>Mini Mağaza</h1>
+    <div class="cart-icon">🛒 <span id="cart-count">0</span></div>
+  </header>
+
+  <main>
+    <section class="products">
+      <!-- 10 Ürün -->
+      <div class="product" data-price="20"><img src="images/resim1.jpg" alt="Ürün 1"><h2>Ürün 1</h2><p>₺20</p><button class="add-to-cart">Sepete Ekle</button></div>
+      <div class="product" data-price="35"><img src="images/resim2.jpg" alt="Ürün 2"><h2>Ürün 2</h2><p>₺35</p><button class="add-to-cart">Sepete Ekle</button></div>
+      <div class="product" data-price="50"><img src="images/resim3.jpg" alt="Ürün 3"><h2>Ürün 3</h2><p>₺50</p><button class="add-to-cart">Sepete Ekle</button></div>
+      <div class="product" data-price="25"><img src="images/resim4.jpg" alt="Ürün 4"><h2>Ürün 4</h2><p>₺25</p><button class="add-to-cart">Sepete Ekle</button></div>
+      <div class="product" data-price="40"><img src="images/resim5.jpg" alt="Ürün 5"><h2>Ürün 5</h2><p>₺40</p><button class="add-to-cart">Sepete Ekle</button></div>
+      <div class="product" data-price="30"><img src="images/resim6.jpg" alt="Ürün 6"><h2>Ürün 6</h2><p>₺30</p><button class="add-to-cart">Sepete Ekle</button></div>
+      <div class="product" data-price="45"><img src="images/resim7.jpg" alt="Ürün 7"><h2>Ürün 7</h2><p>₺45</p><button class="add-to-cart">Sepete Ekle</button></div>
+      <div class="product" data-price="60"><img src="images/resim8.jpg" alt="Ürün 8"><h2>Ürün 8</h2><p>₺60</p><button class="add-to-cart">Sepete Ekle</button></div>
+      <div class="product" data-price="15"><img src="images/resim9.jpg" alt="Ürün 9"><h2>Ürün 9</h2><p>₺15</p><button class="add-to-cart">Sepete Ekle</button></div>
+      <div class="product" data-price="55"><img src="images/resim10.jpg" alt="Ürün 10"><h2>Ürün 10</h2><p>₺55</p><button class="add-to-cart">Sepete Ekle</button></div>
+    </section>
+
+    <aside class="cart">
+      <h2>Sepet</h2>
+      <ul id="cart-items"></ul>
+      <p>Toplam: ₺<span id="total">0</span></p>
+      <button id="clear-cart">Sepeti Temizle</button>
+      <button id="checkout">Sipariş Ver</button>
+    </aside>
+  </main>
+
+  <script src="script.js?v=2"></script>
+</body>
+</html>
